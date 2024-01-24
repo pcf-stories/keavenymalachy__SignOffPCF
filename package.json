@@ -13,7 +13,8 @@
     "refreshTypes": "pcf-scripts refreshTypes",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "@fluentui/react-components": "^9.34.0",
