@@ -9,13 +9,13 @@ const config: StorybookConfig = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-webpack5-compiler-swc"
   ],
+  staticDirs: ['./public'],
   framework: {
     name: "@storybook/html-webpack5",
     options: {
-      builder: {
-        useSWC: true,
-      },
+      builder: {},
     },
   },
   docs: {
